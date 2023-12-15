@@ -65,11 +65,10 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 model_name = "TheBloke/Llama-2-7B-Chat-GGML"
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
+```
 
 
-
-
-This Streamlit app generates blog content using the Llama 2 language model.
+## This Streamlit app generates blog content using the Llama 2 language model.
 
 ## Getting Started
 
