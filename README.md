@@ -41,6 +41,32 @@ We welcome contributions from the community. To contribute to Llama 2, follow ou
 
 Llama 2 is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute it in your projects.
 
+# Llama 2 - 7B Chat GGML
+
+This repository hosts the Llama 2 language model pre-trained on 7 billion conversations for chat-based tasks. The model is available on the Hugging Face Model Hub.
+
+## Model Information
+
+- **Model Name:** Llama-2-7B-Chat-GGML
+- **Author:** TheBloke
+- **Hugging Face Model Hub:** [Llama 2 - 7B Chat GGML](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML)
+
+## Overview
+
+Llama 2 is a powerful language model pre-trained on a diverse set of conversations to excel in chat-based tasks. This model is fine-tuned for general chat generation and can be used in various applications.
+
+## How to Use
+
+To use the Llama 2 model in your projects, you can leverage the Hugging Face Transformers library. Here's an example of loading the model using Python:
+
+```python
+from transformers import GPT2LMHeadModel, GPT2Tokenizer
+
+model_name = "TheBloke/Llama-2-7B-Chat-GGML"
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name)
+
+
 
 
 This Streamlit app generates blog content using the Llama 2 language model.
